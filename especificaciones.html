@@ -1,22 +1,22 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Especificaciones de Provinciano</title>
+    <title>Especificaciones de MiPais</title>
     <link rel="stylesheet" href="css/specs.css" />
 </head>
 <body>
 
-<h1>Especificaciones Provinciano</h1>
+<h1>Especificaciones de MiPais</h1>
 
 <table id="head">
     <tr>
         <th>Caso de uso</th>
-        <td>Provinciano</td>
+        <td>Departamento</td>
     </tr>
     <tr>
         <th>Objetivo</th>
-        <td>Obtener información sobre las distintas provincias argentinas</td>
+        <td>Obtener informaci&oacute;n sobre los distintos departamentos de Uruguay</td>
     </tr>
     <tr>
         <th>Precondiciones</th>
@@ -42,56 +42,56 @@
                 <br/>
                 <ul>
                     <li>
-                        Títulos:
+                        T&iacute;tulos:
                         <ul>
-                            <li>Provinciano</li>
-                            <li>Buscador de datos sobre Provincias de la República Argentina</li>
+                            <li>Departamento</li>
+                            <li>Buscador de datos sobre departamentos de la Rep&uacute;blica Oriental del Uruguay</li>
                         </ul>
                     </li>
                     <li>Campos (filtros)
                         <ul>
-                            <li>Región (Combo, lista de regiones argentinas + "todas" + "ninguna"), orden: alfabético creciente). Valor por defecto: Todas</li>
-                            <li>Nombre (Texto). Valor por defecto: Vacío.</li>
+                            <li>Regi&oacute;n (Combo, lista de departamentos + "todos" + "ninguno"), orden: alfab&eacute;tico creciente). Valor por defecto: Todos</li>
+                            <li>Nombre (Texto). Valor por defecto: Vac&iacute;o.</li>
                         </ul>
                     </li>
-                    <li>Opción Buscar!</li>
+                    <li>Opci&oacute;n Buscar!</li>
                 </ul>
             </td>
             <td></td>
         </tr>
         <tr>
-            <td>El usuario selecciona una región y/o escribe un nombre de ciudad</td>
+            <td>El usuario selecciona una regi&oacute;n y/o escribe un nombre de ciudad</td>
             <td></td>
         </tr>
         <tr>
-            <td>El usuario selecciona la opción “buscar!” o la tecla enter</td>
+            <td>El usuario selecciona la opci&oacute;n "buscar!" o la tecla enter</td>
             <td></td>
         </tr>
         <tr>
-            <td>El sistema muestra una grilla que contiene los registros que coincidan con el criterio de búsqueda seleccionado.
+            <td>El sistema muestra una grilla que contiene los registros que coincidan con el criterio de b&uacute;squeda seleccionado.
                 <ul>
                     <li>Columnas:
                         <ul>
-                            <li>Región: Región a la que corresponde la provincia</li>
-                            <li>Nombre: Nombre de la provincia</li>
-                            <li>Capital: Capital de la provincia</li>
-                            <li>Habitantes: Cantidad de habitantes de la provincia</li>
-                            <li>Km<sup>2</sup>: Superficie de la provincia</li>
+                            <li>Regi&oacute;n: Regi&oacute;n a la que corresponde el Departamento</li>
+                            <li>Nombre: Nombre del Departamento</li>
+                            <li>Capital: Capital del Departamento</li>
+                            <li>Habitantes: Cantidad de habitantes del Departamento</li>
+                            <li>Km<sup>2</sup>: Superficie del Departamento</li>
                         </ul>
                     </li>
-                    <li>Por defecto los resultados aparecen en orden alfabético creciente según nombre de la provincia</li>
-                    <li>Se visualizan todas las provincias que:
+                    <li>Por defecto los resultados aparecen en orden alfab&eacute;tico creciente seg&uacute;n nombre del departamento</li>
+                    <li>Se visualizan todos los departamentos que:
                         <ul>
-                            <li>Corresponden a la región seleccionada</li>
+                            <li>Corresponden a la regi&oacute;n seleccionada</li>
                             <li>En su nombre contienen la subcadena especificada (en el campo Nombre)</li>
                         </ul>
                     </li>
                     <li>Se encuentran disponibles opciones para ordenar por cualquiera de las columnas</li>
-                    <li>La información debe ser equivalente a la disponible en la entrada “Provincias de Argentina” de wikipedia  (http://es.wikipedia.org/wiki/Provincias_de_Argentina)</li>
+                    <li>La informaci&oacute;n debe ser equivalente a la disponible en la entrada "Departamentos de Uruguay" de wikipedia  (<a href="http://es.wikipedia.org/wiki/Organizaci%C3%B3n_territorial_de_Uruguay">http://es.wikipedia.org/wiki/Organizaci&oacute;n_territorial_de_Uruguay</a>)</li>
                 </ul>
             </td>
             <td>
-                Si ninguno de los valores coincide con el criterio de búsqueda, en la grilla se visualiza el mensaje  “No hay provincias que coincidan con lo buscado”
+                Si ninguno de los valores coincide con el criterio de b&uacute;squeda, en la grilla se visualiza el mensaje  "No hay departamentos que coincidan con lo buscado"
             </td>
         </tr>
     </tbody>
